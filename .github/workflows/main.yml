@@ -28,23 +28,15 @@ jobs:
                        model=${{ matrix.model }} \
                        name="Cruel-v4.6_dani"    \
                        toolchain=$TOOLCHAIN      \
-                       +magisk=canary            \
                        +nohardening              \
+                       +nohardening2             \
+                       +always_permit             \
                        +ttl                      \
                        +wireguard                \
                        +cifs                     \
                        +sdfat                    \
                        +ntfs                     \
                        +force_dex_wqhd           \
-                       +morosound                \
-                       +boeffla_wl_blocker       \
-                       +sched_conservative       \
-                       +sched_ondemand           \
-                       +fp_boost                 \
-                       +size                     \
-                       +performance              \
-                       +io_zen                   \
-                       +io_maple                 \
           2>&1 | tee config.info
 
       - name: Install gcc-aarch64-linux-gnu
