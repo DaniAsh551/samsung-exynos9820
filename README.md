@@ -346,3 +346,7 @@ $ FLASH=y ./cruelbuild mkimg ...
 - [Telegram](https://t.me/joinchat/GsJfBBaxozXvVkSJhm0IOQ)
 - [XDA Thread](https://forum.xda-developers.com/galaxy-s10/samsung-galaxy-s10--s10--s10-5g-cross-device-development-exynos/kernel-cruel-kernel-s10-note10-v3-t4063495)
 
+
+
+## RAMDISK SUPPORT
+See: https://github.com/exynos9820-dev/android_kernel_samsung_exynos9820/commit/6a89f2464872873d5659624a0e907fcefa6e3835
