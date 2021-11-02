@@ -28,9 +28,8 @@ jobs:
                        model=${{ matrix.model }} \
                        name="Cruel-v4.6_dani"    \
                        toolchain=$TOOLCHAIN      \
-                       +nohardening              \
-                       +nohardening2             \
-                       +always_permit             \
+                       +magisk=canary            \
+                       +always_permit            \
                        +ttl                      \
                        +wireguard                \
                        +cifs                     \
